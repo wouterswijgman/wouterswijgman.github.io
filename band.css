@@ -1,0 +1,84 @@
+/***background**/
+body {
+
+    background: url("gray_pattern.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    /*background-size: cover;*/
+
+    background-color: black;
+}
+
+/****BIO****/
+
+
+
+
+/***MEMBERS***/
+#members {
+
+    margin-top: 50px;
+}
+
+#members img {
+    width:100%;
+    margin-bottom: -4px;
+}
+
+#ds {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: inline-table;
+    width: 100%;
+}
+
+#pw {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: inline-table;
+    width: 100%;
+}
+
+
+#left {
+    display: inline-block;
+    width: 50%;
+    margin: 0 0 20px 0;
+    vertical-align: top;
+}
+
+#right {
+    display: inline-block;
+    width: 50%;
+    margin: 0 0 20px 0;
+    vertical-align: top;
+}
+
+
+#members p {
+    margin: 0;
+    color: white;
+    font-weight: 300;
+    font-size: 1.1em;
+}
+
+section h5 {
+    margin: 0;
+    color: white;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+section h4 {
+    color: white;
+    background-color:rgba(70,130,180,0.6);
+    font-size: 1.3em;
+    font-weight: 100;
+    text-align: center;
+    padding: 0;
+    margin:0;
+}
+

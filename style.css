@@ -1,0 +1,264 @@
+body {
+    font-family: gill sans, verdana, sans-serif;
+    /*background: linear-gradient(transparent 50%, rgba(100,100,100,.35) 50%);*/
+    background: url("gray_pattern.jpg");
+
+    /*background-position: bottom;*/
+    /*background-attachment: fixed;*/
+    /*background-size: 50px 50px;*/
+    /*background-repeat: repeat;*/
+    background-color: black;
+
+    margin: 0;
+}
+
+#wrapper {
+    width: 100vw;
+}
+
+section {
+    margin: 0;
+    width: 100vw;
+}
+
+li {
+    list-style: none;
+}
+
+/***HEADER***/
+header {
+
+    /*background-color: rgb(42, 78, 108);*/
+    background-color: steelblue;
+    text-align: center;
+    border-style:solid; border-width:0 0 3px 0; border-color:#000000;
+    /*opacity: 1;*/
+}
+
+ul {
+    padding: 0;
+}
+
+nav ul {
+    margin-top: -10px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    text-decoration:none;
+    font-weight: 300;
+}
+
+
+nav li {
+    display: inline-block;
+    margin: -1px;
+}
+
+nav a {
+    padding: 0 2px 0 2px;
+    color: black;
+    text-decoration:none;
+
+    transition-property: background-color, color, box-shadow, border;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+}
+
+.selectedLink {
+    text-decoration:none;
+    color: white;
+    background-color:rgba(0,0,0,1);
+}
+
+
+nav a:hover {
+    transition-property: background-color, color;
+    transition-duration: 0.7s;
+    transition-timing-function: ease-out;
+    background-color:rgba(0,0,0,0.6);
+    color: white;
+}
+
+#home nav {
+    padding-top: 30px;
+    margin: 0 5% 15px 0;
+}
+
+
+#logo img {
+    margin-top: -75px;
+    margin-bottom: -75px;
+}
+
+
+
+/***GENERAL BODY***/
+
+
+section h3 {
+    color: white;
+    /*background-color: rgba(70, 130, 180, 0.5);*/
+    letter-spacing: 3px;
+    font-size: 4em;
+    font-weight: 100;
+    text-align: center;
+    margin: 60px 0 0 0;
+    padding: 0;
+}
+
+p {
+    color: white;
+    padding: 5px 10px 5px 10px;
+    margin: 0;
+    /*background-color:rgba(0,0,0,0.7);*/
+    font-weight: 300;
+    font-size: 1.5em;
+    /*background-color: black;*/
+}
+
+
+
+
+/***BANNER***/
+#banner {
+
+    padding: 0;
+    top: 200px;
+}
+
+#banner img {
+    height: 150px;
+
+    top: 150px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+
+#back {
+    z-index: -5;
+    top: 0;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+#back img {
+    width: 100%;
+    height: 400px;
+}
+
+#map {
+    position: absolute;
+    top: 400px;
+    left: 0;
+}
+
+/***NEWS***/
+#news {
+    /*background: black;*/
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: inline-table;
+    width: 100%;
+}
+
+
+#news #left {
+    display: inline-block;
+    width: 50%;
+    margin: 0 0 20px 0;
+    vertical-align: top;
+}
+
+#news #right {
+    display: inline-block;
+    width: 50%;
+    margin: 0 0 20px 0;
+    vertical-align: top;
+}
+
+
+#news p {
+    margin: 0;
+    padding: 0 10px 30px 10px;
+    color: white;
+    font-weight: 300;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+
+#news h4 {
+    /*background-color:rgba(0,0,0,0.7);*/
+    color: white;
+    font-weight: 600;
+    font-size:1.5em;
+    padding: 0 0 0 10px;
+    margin: 0 0 10px 0;
+}
+
+#news h6 {
+    /*background-color:rgba(0,0,0,0.7);*/
+    margin: 0;
+    padding: 0 10px 5px 10px;
+    color: lightgray;
+    text-align: right;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+#news a {
+    color: steelblue;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#news img {
+    width: 100%;
+}
+
+#foto {
+    text-align: center;
+}
+
+#foto img {
+    width:100%;
+}
+
+
+/***FOOTER***/
+
+footer {
+    margin: 0;
+    padding: 0;
+    /*background-color: #101010;*/
+    color: white;
+    font-size: 0.85em;
+    text-align: center;
+    font-weight: 300;
+}
+
+footer li {
+    display:inline-block;
+    list-style:none;
+ }
+
+footer p {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+footer a {
+    color: steelblue;
+    text-decoration:none;
+}
+footer a:hover {
+    color: white;
+}

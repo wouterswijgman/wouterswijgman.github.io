@@ -1,0 +1,147 @@
+@media screen and (min-width: 1000px) {
+    header {
+        text-align: left;
+
+        border-style: solid;
+        border-width: 0 0 3px 0;
+        border-color: #101010;
+        opacity: 1;
+    }
+
+    /** BANNER **/
+    #banner {
+        z-index: -100;
+        padding: 0;
+
+    }
+
+    #banner img {
+        height: 75vh;
+
+        top: 75px;
+        position: absolute;
+
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+
+
+    #back {
+        z-index: -105;
+        bottom: 0;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+
+    #back img {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #map {
+        position: absolute;
+        top: 100vh;
+
+        width: 100vw;
+
+        margin-right: 0;
+    }
+
+    /******/
+
+    #logo {
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    nav {
+        text-align: right;
+        margin: -90px 5% 55px 0;
+    }
+
+    #home nav {
+        padding-top: 30px;
+        margin: 0 5% 15px 0;
+    }
+
+    body {
+        color: #414141;
+    }
+
+
+    #date li {
+        display: inline-block;
+        width: 250px;
+    }
+
+    /** GALLERY **/
+
+    #enlarge li {
+        margin: 10px 10px 10px 10px;
+    }
+
+    #enlarge li:hover {
+        z-index: 1;
+    }
+
+
+    /***We bring the large image back onto the page by reducing left from -9999px (set in step 2) to figures below***/
+    #enlarge li:hover span {
+        /*positions the <span> when the <li> (which contains the thumbnail) is hovered*/
+        top: -100px; /*the distance from the bottom of the thumbnail to the top of the popup image*/
+        left: -6.5vw; /*distance from the left of the thumbnail to the left of the popup image*/
+        width: 40vw;
+    }
+
+
+    #members {
+        width: 100%;
+        display: inline-table;
+        padding: 0;
+    }
+
+    #ds {
+        vertical-align: top;
+        padding: 0;
+        margin: 0;
+        width: 50%;
+    }
+
+    #pw {
+        vertical-align: top;
+        padding: 0;
+        margin: 0;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+
+    #banner img {
+        height: 440px;
+        top: 20%;
+    }
+}
+
+@media screen and (max-height: 600px) {
+
+    #banner img {
+        height: 75vh;
+        top: 20px;
+    }
+}
+
+
+@media screen and (max-height: 600px) and (max-width: 1000px) {
+
+    #banner img {
+        height: 150px;
+        top: 150px;
+    }
+}

@@ -1,0 +1,24 @@
+/***CONTACT***/
+/***background**/
+body {
+
+    background: url("gray_pattern.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    /*background-size: cover;*/
+
+    background-color: black;
+}
+
+#news p {
+    text-align: center;}
+
+#cont a {
+     color: steelblue;
+     font-weight: 600;
+ }
+
+footer {
+    margin-top: 20%;
+}
